@@ -1,0 +1,30 @@
+class EmpDetails{
+    String Name;
+    int Year;
+    String Address;
+    public static void main(String args[]){
+       EmpDetails obj1= new EmpDetails();
+       EmpDetails obj2= new EmpDetails();
+       EmpDetails obj3= new EmpDetails();
+       obj1.Name="Robert";
+       obj1.Year= 1994;
+       obj1.Address="64C-WallsStreet";
+       obj2.Name="Sam";
+       obj2.Year= 2000;
+       obj2.Address="64D-WallsStreet";
+       obj3.Name="John";
+       obj3.Year= 1999;
+       obj3.Address="26B-WallsStreet";
+       System.out.print(obj1.Name);
+       System.out.print(" "+obj1.Year);
+       System.out.print(" "+obj1.Address);
+       System.out.println();
+       System.out.print(obj2.Name);
+       System.out.print(" "+obj2.Year);
+       System.out.print(" "+obj2.Address);
+       System.out.println();
+       System.out.print(obj3.Name);
+       System.out.print(" "+obj3.Year);
+       System.out.print(" "+obj3.Address);
+    }
+}
